@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/bootstrap";
+
+$primary: #7950f2;
+$secondary: #4c6eF5;
+
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $danger
+);
+
+body {
+    background-color: $primary;
+}
+
+#titleLogo {
+    color: $primary;
+}
